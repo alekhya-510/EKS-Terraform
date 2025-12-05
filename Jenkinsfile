@@ -5,7 +5,7 @@ properties([
             name: 'Environment'
         ),
         choice(
-            choices: ['plan', 'apply', 'destroy'], 
+            choices: ['plan', 'apply', 'output' , 'destroy'], 
             name: 'Terraform_Action'
         )])
 ])
