@@ -1,11 +1,11 @@
 env                   = "dev"
-aws-region            = "eu-west-2"
+aws-region            = "eu-north-1"
 vpc-cidr-block        = "10.16.0.0/16"
 vpc-name              = "vpc"
 igw-name              = "igw"
 pub-subnet-count      = 3
 pub-cidr-block        = ["10.16.0.0/20", "10.16.16.0/20", "10.16.32.0/20"]
-pub-availability-zone = ["eu-west-2a", "eu-west-2b", "eu-west-2c"]
+pub-availability-zone = ["eu-north-1a", "eu-north-1b", "eu-north-1c"]
 pub-sub-name          = "subnet-public"
 pri-subnet-count      = 3
 pri-cidr-block        = ["10.16.128.0/20", "10.16.144.0/20", "10.16.160.0/20"]
